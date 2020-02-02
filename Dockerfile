@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.11.3
 
 ENV USERNAME=none
 ENV PASSWORD=none
