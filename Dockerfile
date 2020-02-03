@@ -14,6 +14,7 @@ RUN apk add --no-cache perl@edge perl-html-parser@edge perl-http-cookies@edge pe
 RUN apk add --no-cache perl-lwp-protocol-https@edge perl-uri@edge ca-certificates@edge perl-net-libidn@edge perl-net-ssleay@edge perl-io-socket-ssl@edge perl-libwww@edge perl-mozilla-ca@edge perl-net-http@edge
 
 VOLUME /data
+VOLUME /config
 ADD entry.sh /entry.sh
 RUN chmod 755 /entry.sh
 
