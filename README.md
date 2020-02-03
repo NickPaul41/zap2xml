@@ -4,7 +4,7 @@ Docker container for zap2xml
 This is zap2xml with Environment Variables driving the configuration. By default it runs every 12 hours to update your EPG data from zap2it
 
 ## Quick Run
-`docker run -d --name zap2xml -v /xmltvdata:/data -e USERNAME=youremail@email.com -e PASSWORD=**password** -e OPT_ARGS="-I -D" -e XMLTV_FILENAME=xmltv.xml shuaiscott/zap2xml`
+`docker run -d --name zap2xml -v /xmltvdata:/data -e USERNAME=youremail@email.com -e PASSWORD=**password** -e OPT_ARGS="-I -D" -e XMLTV_FILENAME=xmltv.xml nickpaul/zap2xml`a
 
 ## Environment Settings
 You can configure the following environment variables below:
